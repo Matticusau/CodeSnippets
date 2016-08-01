@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Class Header - Change Entry</Title>
+			<Author>Matt Lavery (Matticus.Net)</Author>
+			<Description>Adds individual changes to the existing header.</Description>
+			<Shortcut>classhdr</Shortcut>
+        </Header>
+        <Snippet>
+			<Declarations>
+                <Literal>
+                    <ID>type</ID> 
+                    <Default>int</Default> 
+                </Literal>
+                <Literal>
+                    <ID>name</ID> 
+                    <Default>field</Default> 
+                </Literal>
+                <Literal default="true" Editable="false">
+                    <ID>author</ID> 
+                    <ToolTip>The author of the file</ToolTip> 
+                    <Default>Matt Lavery</Default> 
+                </Literal>
+				<Literal default="true" Editable="false">
+                    <ID>currentdate</ID> 
+                    <ToolTip>The current date</ToolTip> 
+					<Function>DateTime.Now()</Function>
+                    <Default>01/01/1990</Default> 
+                </Literal>
+            </Declarations>
+            <Code Language="csharp" Format="CData">
+                <![CDATA[// $author$        $currentdate$          
+				]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
