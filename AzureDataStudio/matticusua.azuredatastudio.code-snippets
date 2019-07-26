@@ -4,14 +4,14 @@
 		"prefix": "hdr",
 		"body": [
 			"--",
-			"--  Author:        Matt Lavery",
+			"--  Author:        $1",
 			"--  Date:          $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
-			"--  Purpose:       $1",
+			"--  Purpose:       $2",
 			"--",
 			"--  History",
 			"--  When            Who         What",
 			"--  -----------------------------------------------------------------",
-			"--  $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE      $2     Initial Coding",
+			"--  $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE      $3     Initial Coding",
 			"--  -----------------------------------------------------------------",
 			"-- "
 		],
