@@ -1,0 +1,28 @@
+{
+	"TSQL Header": {
+		"scope": "sql",
+		"prefix": "hdr",
+		"body": [
+			"--",
+			"--  Author:        Matt Lavery",
+			"--  Date:          $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+			"--  Purpose:       $1",
+			"--",
+			"--  History",
+			"--  When            Who         What",
+			"--  -----------------------------------------------------------------",
+			"--  $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE      $2     Initial Coding",
+			"--  -----------------------------------------------------------------",
+			"-- "
+		],
+		"description": "TSQL Script Header"
+	},
+	"TSQL Change": {
+		"scope": "sql",
+		"prefix": "hdrupd",
+		"body": [
+			"--  $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE      $1     $2"
+		],
+		"description": "TSQL Script Header Update"
+	},
+}
